@@ -1,0 +1,17 @@
+opera=C:\Users\user\AppData\Local\Programs\Opera GX\opera.exe
+godot=C:\Program Files\Godot v4.5.1\Godot_v4.5.1-stable_win64.exe
+powershell=powershell.exe
+firefox=C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Firefox.lnk
+roblox=C:\Program Files\WindowsApps\ROBLOXCorporation.RobloxGDK_2.702.632.0_x64__55nm5eh3cm0pr
+trash=shell:RecycleBinFolder
+downloads=C:\Users\user\Downloads
+wa=C:\Program Files\WindowsApps\5319275A.WhatsAppDesktop_2.2587.9.0_x64__cv1g1gvanyjgm
+fnf=E:\Gamesis\Friday night funkin
+games=E:\Gamesis
+explorer=explorer.exe
+cmd=cmd.exe
+vscode=C:\Users\user\AppData\Local\Programs\Microsoft VS Code\Code.exe
+github=C:\Users\user\AppData\Local\GitHubDesktop\GitHubDesktop.exe
+shortcut=C:\Scripts\shortcuts.txt
+blender=C:\Program Files\WindowsApps\BlenderFoundation.Blender3.6LTS_3.6.23.0_x64__ppwjx1n5r4v9t
+gamemaker=C:\Program Files\GameMaker\GameMaker.exe
