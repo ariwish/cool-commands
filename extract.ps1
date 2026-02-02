@@ -4,7 +4,6 @@ param(
 )
 
 $7zipPath = "C:\Program Files\7-Zip\7z.exe"
-
 if (-not (Test-Path $7zipPath)) {
     Write-Error "7-Zip not found at $7zipPath"
     exit 1
@@ -54,7 +53,8 @@ foreach ($src in $sourcePaths) {
         continue
     }
     
-    if ($item.Extension -match '\.(zip|rar)$') {
+    # Check for zip/rar extension or Windows compressed attribute
+    if ($item.Extension -match '\.(zip|rar)$' -or $item.Attributes -match 'Compressed') {
         New-Item -ItemType Directory -Path $destFolder -Force | Out-Null
         Write-Host "Extracting: $($item.Name) -> $destFolder"
         & $7zipPath x "$src" -o"$destFolder" -y | Out-Null
