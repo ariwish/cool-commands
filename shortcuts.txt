@@ -1,7 +1,0 @@
-bin=shell:RecycleBinFolder
-downloads=C:\Users\user\Downloads
-fnf=E:\Gamesis\Friday night funkin
-gamesis=E:\Gamesis
-shortcuts=C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
-commands=C:\Users\user\AppData\Local\Microsoft\WindowsApps\commands
-e=E:\
